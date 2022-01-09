@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="330dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="#CDDC39"
+        android:gravity="center"
+        android:text="Intent between Activities"
+        android:textColor="#000222"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/argOne"
+        android:layout_width="278dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:hint="Enter number 1" />
+
+    <EditText
+        android:id="@+id/argTwo"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:hint="Enter number 2" />
+
+    <Button
+        android:id="@+id/sendBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="Send Result"
+        android:textColor="#000222"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="#CDDC39" />
+
+    <TextView
+        android:id="@+id/resView"
+        android:layout_width="314dp"
+        android:layout_height="52dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="#8BC34A"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="RESULT"
+        android:textColor="#000222"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</LinearLayout>

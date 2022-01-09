@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:background="#101635"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <AutoCompleteTextView
+            android:id="@+id/schoolID"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:completionHint="Select your School"
+            android:completionThreshold="1"
+            android:dropDownAnchor="@id/schoolID"
+            android:hint="Select your school"
+            android:popupTheme="@color/white"
+            android:textColor="#FFEB3B"
+            android:textColorHint="#CDDC39" />
+
+        <TextView
+            android:id="@+id/school_view"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:background="#E91E63"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:paddingBottom="20dp"
+            android:text="VIT-AP SCHOOL"
+            android:textColor="#FFEB3B"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

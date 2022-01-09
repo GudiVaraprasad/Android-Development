@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="vitcourse">
+        <item>DBMS</item>
+        <item>OS</item>
+        <item>OOPS</item>
+        <item>DMS</item>
+        <item>MAD</item>
+    </string-array>
+
+    <string-array name="vitschool">
+        <item>SCOPE</item>
+        <item>SENSE</item>
+        <item>SMEC</item>
+        <item>VSB</item>
+        <item>VSL</item>
+        <item>VISH</item>
+    </string-array>
+
+    <string-array name="vitcountry">
+        <item>AMERICA</item>
+        <item>AUSTRALIA</item>
+        <item>INDIA</item>
+        <item>IRELAND</item>
+        <item>RUSSIA</item>
+        <item>ROMANIA</item>
+    </string-array>
+</resources>

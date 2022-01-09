@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ACTV</string>
+
+    <string-array name="vitap_school">
+        <item>SCOPE</item>
+        <item>SENSE</item>
+        <item>SMEC</item>
+        <item>VSB</item>
+        <item>VSL</item>
+        <item>VISH</item>
+    </string-array>
+</resources>

@@ -1,0 +1,6 @@
+<root>
+    <item name='android.os.Looper void setObserver(android.os.Looper.Observer) 0'>
+        <annotation name='androidx.annotation.NonNull' />
+        <annotation name='java.lang.Deprecated' />
+    </item>
+</root>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="344dp"
+        android:layout_height="98dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="#FFEB3B"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="FLOATING ACTION BUTTON ANIMATIONS"
+        android:textColor="#000111"
+        android:textSize="20sp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:layout_marginTop="250dp"
+
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:clickable="true"
+        app:backgroundTint="#FFEB3B"
+        app:srcCompat="?attr/actionModeSelectAllDrawable" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:layout_margin="10dp"
+        android:clickable="true"
+        app:backgroundTint="#FFEB3B"
+        app:srcCompat="@android:drawable/stat_sys_phone_call" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/cam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:layout_margin="10dp"
+        android:clickable="true"
+        app:backgroundTint="#FFEB3B"
+        app:srcCompat="@android:drawable/ic_menu_camera" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/recycle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:layout_margin="10dp"
+        android:clickable="true"
+        app:backgroundTint="#FFEB3B"
+        app:srcCompat="@android:drawable/ic_popup_sync" />
+
+</LinearLayout>

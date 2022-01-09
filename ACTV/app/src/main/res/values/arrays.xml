@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="vitschool">
+
+        <item>SCOPE</item>
+        <item>SENSE</item>
+        <item>SMEC</item>
+        <item>VSB</item>
+        <item>VSL</item>
+        <item>VISH</item>
+
+        <item>APPLE</item>
+        <item>BAT</item>
+        <item>BALL</item>
+        <item>CAT</item>
+        <item>DOG</item>
+        <item>EGG</item>
+    </string-array>
+</resources>
